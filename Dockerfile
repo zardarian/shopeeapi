@@ -1,4 +1,4 @@
-FROM python:3.4-alpine
+FROM python:3.4-ubuntu
 ADD . /code
 WORKDIR /code
 RUN sudo apt-get install libmysqlclient-dev
