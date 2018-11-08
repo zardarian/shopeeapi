@@ -1,4 +1,4 @@
-FROM python:3.4-ubuntu
+FROM python:3.4-alpine
 ADD . /code
 WORKDIR /code
 RUN apk -q --no-cache add mariadb-client-libs
