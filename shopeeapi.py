@@ -1,7 +1,6 @@
 import MySQLdb
 import flask
 from flask import Flask, json, request
-from flask_cors import CORS
 from flaskext.mysql import MySQL
 
 mysql = MySQL()
